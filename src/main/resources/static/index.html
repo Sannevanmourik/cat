@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My resume</title>
+
+    <script src="scripts/main.js"></script>
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
+</head>
+<body>
+
+    <input type = "button" value="Click here" onclick="alertFoo();"/>
+    <input type = "button" value="Click here for bar" onclick="bar();"> </input>
+
+    <section>
+    <h1> Hi all, my name is Sanne, </h1>
+    <p><i>I am 24 years and living in Delft. The last couple of years I studied Nutrition & Dietetics. After my study I started and an IT helpdesk. </p>
+    <p>Currently I am attending the software engineer track at Capgemini.</i></p>
+    <p><i>Right now I am learning <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a>. </i> </p>
+    </section>
+    <aside><img src="images\Ematch1.jpg" \>
+    <br><br><br><br>
+
+
+    <h2>Work experience</h2>
+
+    <table style="width:50%">
+        <tr>
+            <th>Employer</th>
+            <th>City</th>
+            <th>Time period</th>
+
+        </tr>
+        <tr onmouseover="popUp();">
+            <td>OGD ict-diensten</td>
+            <td>Delft</td>
+            <td>02/2017 - 05/2018</td>
+        </tr>
+        <tr>
+            <td>Capgemini</td>
+            <td>Utrecht</td>
+            <td>06/2018 - until now</td>
+        </tr>
+    </table>
+
+</body>
+</html>
